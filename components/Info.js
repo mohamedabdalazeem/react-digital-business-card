@@ -1,9 +1,10 @@
 import React from 'react'
+import profileImg from '../src/groot.jpg'
 
 export default function Info() {
     return (
         <div className="info">
-            <img src="../groot-img.jpg" className="info-img" />
+            <img src={profileImg} className="info-img" />
             <h2>Groot Jr</h2>
             <p className="info-position">Front-end Devekoper</p>
             <p>Groot Website</p>
